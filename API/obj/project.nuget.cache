@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oim0KlJGHOPLMSrpayjBibQufi2tMzqIj3rBI3HVFx4pI0ycdlq/0spqEhJvhc43k+ulzKXvQussNxL0wJiw/Q==",
+  "dgSpecHash": "H6vr1lo7MZCVizfsI4aKtCkbEXDEhpvu3NP/4nRA3S+VuKGm0+xaJPGasmJvpauubJ5nGzUDl5em08+/5UQEbQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\josep\\OneDrive - Universidad Autónoma de Aguascalientes\\9no semestre\\Servicios web\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\josep\\OneDrive - Universidad Autónoma de Aguascalientes\\9no semestre\\Servicios web\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
