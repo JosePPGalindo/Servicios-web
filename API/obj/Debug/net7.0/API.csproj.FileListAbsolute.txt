@@ -69,3 +69,8 @@ C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\S
 C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\Servicios web\API\obj\Debug\net7.0\API.pdb
 C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\Servicios web\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\Servicios web\API\obj\Debug\net7.0\ref\API.dll
+C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\Servicios web\API\bin\Debug\net7.0\Data\UserSeedData.json
+C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\Servicios web\API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\Servicios web\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\Servicios web\API\bin\Debug\net7.0\package-lock.json
+C:\Users\josep\OneDrive - Universidad Autónoma de Aguascalientes\9no semestre\Servicios web\API\bin\Debug\net7.0\package.json
