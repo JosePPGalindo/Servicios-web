@@ -25,7 +25,6 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootswatch/dist/minty/bootstrap.min.css",
@@ -113,6 +112,6 @@
     }
   },
   "cli": {
-    "analytics": "751c1a1a-326d-4e3e-9b18-e05a4b78c4c5"
+    "analytics": "1d5cae30-3af0-46c1-b9eb-f37f507167b1"
   }
 }

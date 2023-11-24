@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eIEMqFJW8vO5Am26iJZdB666v3bD5JQQgQ9dNtCSOB5KwBetRh9jFgl60fCCvqqASKp33/ER8B6JAfOdzbHakA==",
+  "dgSpecHash": "l19beowbNMc7Re8Je+I2MVWVx1xGAQKGkZA5DDHl/w0aoiAS20/6AlAMe13VOhQkeMY7sm0PWrSZxUp+dicfYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josep\\OneDrive - Universidad Autónoma de Aguascalientes\\9no semestre\\Servicios web\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\josep\\OneDrive - Universidad Autónoma de Aguascalientes\\9no semestre\\Proyecto Servicios\\Servicios-web\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

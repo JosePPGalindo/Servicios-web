@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-
 namespace API.Controllers;
 
 [Authorize]
@@ -18,8 +17,10 @@ public class UsersController : BaseApiController
     public UsersController(IUserRepository userRepository, IMapper mapper)
     {
         _userRepository = userRepository;
-        _mapper = mapper;    
+        _mapper = mapper;
     }
+
+    [HttpGet]
     public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
     {
         var users = await _userRepository.GetMembersAsync();
