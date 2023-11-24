@@ -16,7 +16,7 @@ export class AccountService {
   constructor(private http: HttpClient) {}
 
   login(model: any) {
-    return this.http.post<IUser>(this.baseUrl + '/account/login', model).pipe(
+    return this.http.post<IUser>(this.baseUrl + 'account/login', model).pipe(
         map((response: IUser) => {
           const user = response;
           if (user) {
@@ -28,16 +28,14 @@ export class AccountService {
     }
   
     register(model: any) {
-      return this.http
-        .post<IUser>(this.baseUrl + '/account/register', model)
-        .pipe(
-          map((user) => {
-            if (user) {
-              localStorage.setItem('user', JSON.stringify(user));
-              this.currentUserSource.next(user);
-            }
-          })
-        );
+      return this.http.post<IUser>(this.baseUrl + 'account/register', model).pipe(
+        map((user) => {
+          if (user) {
+            localStorage.setItem('user', JSON.stringify(user));
+            this.currentUserSource.next(user);
+          }
+        })
+      );
     }
   
     setCurrentUser(user: IUser) {
