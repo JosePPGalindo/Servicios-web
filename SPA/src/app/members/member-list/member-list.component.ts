@@ -5,12 +5,12 @@ import { MembersService } from 'src/app/_services/members.service';
 @Component({
   selector: 'app-member-list',
   templateUrl: './member-list.component.html',
-  styleUrls: ['./member-list.component.css'],
+  styleUrls: ['./member-list.component.css']
 })
 export class MemberListComponent implements OnInit {
   members: IMember[] = [];
-
-  constructor(private membersService: MembersService) {}
+  
+  constructor(private membersService: MembersService) { }
 
   ngOnInit(): void {
     this.loadMembers();
@@ -18,7 +18,8 @@ export class MemberListComponent implements OnInit {
 
   loadMembers() {
     this.membersService.getMembers().subscribe({
-      next: (response) => (this.members = response),
-    });
+      next: response => this.members = response
+    })
   }
+
 }

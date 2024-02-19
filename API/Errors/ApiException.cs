@@ -6,7 +6,7 @@ public class ApiException
     {
         StatusCode = statusCode;
         Message = message;
-
+        Details = details;
     }
 
     public int StatusCode { get; set; }
